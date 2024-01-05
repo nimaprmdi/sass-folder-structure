@@ -1,0 +1,16 @@
+/*------------------------------------*\
+  #Header
+\*------------------------------------*/
+.c-header {
+  max-height: rem(100px);
+  padding: rem(0px 16px);
+
+  @include mq($from: tablet) {
+    max-height: rem(108px);
+    padding: 0;
+  }
+
+  @include mq($until: wide-sm) {
+    padding: rem(0px 16px);
+  }
+}
